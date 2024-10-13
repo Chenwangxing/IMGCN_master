@@ -13,6 +13,8 @@ dataset folder: contains ETH and UCY datasets
 
 model.py: the code of IMGCN
 
+train.py: for training the code
+
 test.py: for testing the code
 
 utils.py: general utils used by the code
