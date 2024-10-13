@@ -26,3 +26,7 @@ You can easily run the model！ To use the pretrained models at checkpoint/ and 
 
 ## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
+
+
+## Cite this article:
+Chen W, Sang H, Wang J, et al. IMGCN: interpretable masked graph convolution network for pedestrian trajectory prediction[J]. Transportmetrica B: Transport Dynamics, 2024, 12(1): 2389896. https://doi.org/10.1080/21680566.2024.2389896
