@@ -28,6 +28,7 @@ You can easily run the model！ To use the pretrained models at checkpoint/ and 
 
 ## Visualization
 Visualize the model prediction trajectory, please run: visualization.py
+It is worth noting that the H.txt file and scene pictures need to be adjusted for different scenes.
 
 
 ## Trajectory prediction update
