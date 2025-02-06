@@ -11,6 +11,8 @@ checkpoint folder: contains the trained models
 
 dataset folder: contains ETH and UCY datasets
 
+ETHUCYkeshihua folder: contains H.txt files and scene images for each scene of the ETH and UCY datasets
+
 model.py: the code of IMGCN
 
 train.py: for training the code
@@ -23,6 +25,10 @@ metrics.py: Measuring tools used by the code
 
 ## Model Evaluation
 You can easily run the model！ To use the pretrained models at checkpoint/ and evaluate the models performance run:  test.py
+
+## Visualization
+Visualize the model prediction trajectory, please run: visualization.py
+
 
 ## Trajectory prediction update
 Different from previous random sampling (MC), we introduce Latin hypercube sampling (LHS) in pedestrian trajectory prediction to mitigate the long-tail effect. Compared with quasi-Monte Carlo sampling (QMC), Latin hypercube sampling is more suitable for trajectory prediction and can more accurately describe the diversity of pedestrian motion. It is worth noting that random sampling, quasi-Monte Carlo sampling, and Latin hypercube sampling are plug-and-play and do not require training. （For details, please refer to the paper: DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for Pedestrian Trajectory Prediction）
