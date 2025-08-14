@@ -34,16 +34,21 @@ Visualize the model prediction trajectory, please run: visualization.py
 It is worth noting that the H.txt file and scene pictures need to be adjusted for different scenes.
 
 
-For ETH dataset (eth, hotel), employ the code:
+###For ETH dataset (eth, hotel), employ the code:
 
 trajnrely, trajnrelx = world2image(V_y_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
+
 trajnprey, trajnprex = world2image(V_pred_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
+
 trajnobsy, trajnobsx = world2image(V_x_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
 
-For UCY dataset (univ, zara1, zara2), employ the code: 
+
+###For UCY dataset (univ, zara1, zara2), employ the code: 
 
 trajnrelx, trajnrely = world2image(V_y_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
+
 trajnprex, trajnprey = world2image(V_pred_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
+
 trajnobsx, trajnobsy = world2image(V_x_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
 
 
