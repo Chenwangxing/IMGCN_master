@@ -42,14 +42,6 @@ trajnprey, trajnprex = world2image(V_pred_rel_to_abs, H_inv)
 
 trajnobsy, trajnobsx = world2image(V_x_rel_to_abs, H_inv)
 
-“`
-trajnrely, trajnrelx = world2image(V_y_rel_to_abs, H_inv)
-
-trajnprey, trajnprex = world2image(V_pred_rel_to_abs, H_inv)
-
-trajnobsy, trajnobsx = world2image(V_x_rel_to_abs, H_inv)
-“`
-
 
 - For UCY dataset (univ, zara1, zara2), employ the code: 
             
