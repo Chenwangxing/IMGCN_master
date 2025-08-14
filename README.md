@@ -44,12 +44,10 @@ trajnobsy, trajnobsx = world2image(V_x_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy arr
 
 
 ###For UCY dataset (univ, zara1, zara2), employ the code: 
+            trajnrelx, trajnrely = world2image(V_y_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
+            trajnprex, trajnprey = world2image(V_pred_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
+            trajnobsx, trajnobsy = world2image(V_x_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
 
-trajnrelx, trajnrely = world2image(V_y_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
-
-trajnprex, trajnprey = world2image(V_pred_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
-
-trajnobsx, trajnobsy = world2image(V_x_rel_to_abs, H_inv)  # TRAJ: Tx2 numpy array
 
 
 
